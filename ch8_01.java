@@ -16,22 +16,22 @@ public class qwe
 	public static void main(String args[])
     {
 	CA objA = new CA();
-	CB objB = new CB();        //obja¤lÃş§Oª«¥ó
-	System.out.println("½Ğ¿é¤JÃş§OCAªºobjaª«¥ó¸ê®Æ");
+	CB objB = new CB();        //objaå­é¡åˆ¥ç‰©ä»¶
+	System.out.println("è«‹è¼¸å…¥é¡åˆ¥CAçš„objaç‰©ä»¶è³‡æ–™");
 	objA.inputX();
 	objA.inputY();
 	objA.inputZ();
-	System.out.println("Ãş§OCAªºobjaª«¥ó¸ê®Æ");
+	System.out.println("é¡åˆ¥CAçš„objaç‰©ä»¶è³‡æ–™");
 	objA.show();	
 	System.out.println("---------------------");	
-	System.out.println("Ãş§OCBªºobjaª«¥ó¸ê®Æ");
+	System.out.println("é¡åˆ¥CBçš„objaç‰©ä»¶è³‡æ–™");
 	objB.inputX();
 	objB.inputY();
 	objB.inputZ();
 	objB.varX++;
     objB.varY++;
     objB.addOne();
-	System.out.print("Ãş§OBªºobjaª«¥ó¸ê®Æ");
+	System.out.print("é¡åˆ¥Bçš„objaç‰©ä»¶è³‡æ–™");
 	objB.show();
     }
 }
@@ -46,19 +46,19 @@ class CA
 	private int varZ;
 	public void inputX()
 	{
-		System.out.print("varX:");  //´£¥Ü¨Ï¥ÎªÌ
-	    varX = Integer.parseInt(keyboardInput.nextLine()); //§â¨Ï¥ÎªÌ¿é¤J¸ê®ÆÂà¦¨¾ã¼Æ¦s¨ì³o­ÓÅÜ¼Æ
+		System.out.print("varX:");  //æç¤ºä½¿ç”¨è€…
+	    varX = Integer.parseInt(keyboardInput.nextLine()); //æŠŠä½¿ç”¨è€…è¼¸å…¥è³‡æ–™è½‰æˆæ•´æ•¸å­˜åˆ°é€™å€‹è®Šæ•¸
   	}
 	public void inputY()
 	{
-	    System.out.print("varY:");  //´£¥Ü¨Ï¥ÎªÌ
-	    varY = Integer.parseInt(keyboardInput.nextLine()); //§â¨Ï¥ÎªÌ¿é¤J¸ê®ÆÂà¦¨¾ã¼Æ¦s¨ì³o­ÓÅÜ¼Æ
+	    System.out.print("varY:");  //æç¤ºä½¿ç”¨è€…
+	    varY = Integer.parseInt(keyboardInput.nextLine()); //æŠŠä½¿ç”¨è€…è¼¸å…¥è³‡æ–™è½‰æˆæ•´æ•¸å­˜åˆ°é€™å€‹è®Šæ•¸
 	 	
 	}
 	public void inputZ()
 	{
-	    System.out.print("varZ:");  //´£¥Ü¨Ï¥ÎªÌ
-	    varZ = Integer.parseInt(keyboardInput.nextLine()); //§â¨Ï¥ÎªÌ¿é¤J¸ê®ÆÂà¦¨¾ã¼Æ¦s¨ì³o­ÓÅÜ¼Æ	
+	    System.out.print("varZ:");  //æç¤ºä½¿ç”¨è€…
+	    varZ = Integer.parseInt(keyboardInput.nextLine()); //æŠŠä½¿ç”¨è€…è¼¸å…¥è³‡æ–™è½‰æˆæ•´æ•¸å­˜åˆ°é€™å€‹è®Šæ•¸	
 	}
 	public void show()
 	{
@@ -68,7 +68,7 @@ class CA
 }    
 
  
-class CB extends CA  //Ãş§OCBÄ~©Ó¦ÛÃş§OCA
+class CB extends CA  //é¡åˆ¥CBç¹¼æ‰¿è‡ªé¡åˆ¥CA
 {
 	public int varW;
 	public void addOne()
