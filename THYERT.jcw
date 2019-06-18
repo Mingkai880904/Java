@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>THYERT</label>
+	</settings>
+	<users>
+		<user>
+			<path>THYERT.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>THYERT.jcp</path>
+		</project>
+	</projects>
+</workspace>
